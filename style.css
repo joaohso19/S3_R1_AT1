@@ -1,0 +1,54 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 750; 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 750; 
+}
+
+div {
+    text-align: center;
+}
+
+
+button {
+    width: 180px;
+    text-align: center;
+    padding: 16px 45px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(135deg, #5d18dc, #8e2de2); /* Fundo com degradê roxo */
+    color: white; /* Texto branco para dar contraste */
+    font-weight: bold; /* Deixa a fonte mais grossa */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    box-shadow: 0 4px 15px rgba(93, 24, 220, 0.4); /* Sombra roxa suave */
+    transition: all 0.3s ease; /* Deixa as animações mais suaves */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    transform: translateY(-3px); /* Levanta o botão levemente */
+    box-shadow: 0 8px 25px rgba(93, 24, 220, 0.7); /* Sombra fica mais forte, dando efeito de "brilho" */
+    color: aquamarine; /* O texto muda para a cor que você escolheu antes */
+    letter-spacing: 3px;
+}
+
+/* Efeito ao clicar no botão */
+button:active {
+    transform: translateY(1px); /* Dá a sensação de que o botão foi afundado */
+    box-shadow: 0 2px 10px rgba(93, 24, 220, 0.4); /* Sombra diminui no clique */
+}
+
+.container-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
