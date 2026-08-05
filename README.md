@@ -22,5 +22,5 @@
 | **`:hover` / `:active`** | Pseudo-classe CSS | Efeitos de interação nos botões | Aplica animações ao passar o mouse (elevação, alteração de cor, brilho) e ao clicar (efeito de afundamento). |
 | **`index.html`** | Página HTML | Página Inicial (*Home*) | Apresenta a empresa, mensagem de boas-vindas e o menu principal com os botões de navegação. |
 | **`catalogo.html`** | Página HTML | Página de Produtos | Exibe o título da seção e imagens do catálogo de produtos disponíveis. |
-| **`biografia.html`** | Página HTML | Página "Quem Somos?" | Apresenta a história, localização e ramo de atuação da empresa no comércio eletrônico. |
+| **`biografia.html`** | Página HTML | Página "Quem Somos?" | Apresenta uma breve descrição da empresa. |
 | **`suporte.html`** | Página HTML | Página de Suporte | Fornece as informações de contato com o atendimento (WhatsApp). |
